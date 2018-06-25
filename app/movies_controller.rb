@@ -6,7 +6,7 @@
 # end                              # end
 
 def can_be_instantiated_and_then_saved
-  movie = self.create
+  movie = self.save
   movie.title = "This is a title."
   movie
 end
